@@ -1,0 +1,42 @@
+.img-profile > img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.bottom-header.bgWhite.ofsTSmall.ofsBSmall.tCenter{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bgWhite {
+    border-radius: 25px;
+    background: #ffffff;
+}
+
+@media only screen and (max-width: 479px){
+    .main-nav.tabbed ul li {
+        float: left;
+        width: 33.33%;
+        border-right: 1px solid #26292e;
+        border-bottom: none;
+    }
+}
+
+
+.title.dev{
+    border-radius: 25px;
+}
+.title.des{
+    border-radius: 25px;
+}
+.title.prs{
+    border-radius: 25px;
+}
+
+a{
+    color: #c65153;
+}
+
+::selection{
+    color: #c65153;
+    background-color: lightgray;
+}
